@@ -1,0 +1,423 @@
+.body{
+    background-color: purple;
+    margin-top: 0%;
+    border: 1px solid purple;
+}
+.navwd{
+    /* border: red solid 1px; */
+    /* justify-content: center; */
+    padding: 10px;
+    padding-left: 15%;
+}
+
+.d-flex button{
+    background-color: darkmagenta;
+    color: white;
+    border: 1px solid darkmagenta;
+    margin: 5px;
+    /* border: 1px red solid; */
+
+}
+form{
+    /* border: 1px red solid; */
+    margin-left: 15%;
+
+}
+.button{
+    margin: 0% auto;
+}
+.carousel{
+    border: 1px plum solid ;
+    background-color: plum;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+.carousel img{
+    width: 40px;
+}
+section p{
+    font-size: 20px;
+    color: black;
+    /* border: red 1px solid; */
+    text-align: center;
+}
+span{
+    color: plum;
+}
+p{
+    font-size: 12px;
+}
+.navby p{
+    text-align: center;
+}
+
+.navby button{
+    color: white;
+    background-color: plum;
+    border: 1px plum solid;
+    padding: 8px;
+    border-radius: 20px;
+    text-align: center;
+    margin: auto 0%;
+    margin-left: 20%;
+}
+.card{
+    border: 1px red solid;
+    background-color: darkorchid;
+}
+.card img{
+    /* border: red solid 1px; */
+    width: 50%;
+    margin-left: 25%;
+}
+.card-body{
+    /* border: red solid 1px ; */
+    text-align: center;
+}
+.container{
+    position: relative;
+}
+.button1{
+    border: 1px plum solid ;
+     background-color: plum;
+     color: white;
+     /* margin: 0% auto; */
+     margin-left: 25%;
+     border-radius: 20px;
+     padding: 5px;
+     width: 50%;
+     margin-bottom: 10px;
+     margin-top: 10px;
+}
+.bubu{
+    margin-left: 25%;
+    background-color: plum ;
+    border: 1px plum solid;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: white;
+}
+.button{
+    color: white;
+    background-color: plum;
+    border: 1px plum solid;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0% auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+}
+.techn{
+        position: absolute;
+        top: 10%;
+        left: 10%;
+}
+.techn {
+    color: white;
+}
+.imgt img{
+    width: 23%;
+    margin-top: 10px;
+}
+.nos p{
+    border: 1px plum solid;
+    border-radius: 25px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: plum;
+    color: white;
+    font-size: medium;
+
+}
+.nos{
+    display: flex;
+    gap: 10%;
+    justify-content: center;
+}
+.nos-text{
+    display: flex;
+    justify-content: center;
+}
+.nos-text div{
+    /* border: red solid 1px; */
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    /* margin-left: 10px; */
+
+}
+form{
+    margin: 0px;
+}
+.forms{
+    border: 1px darkorchid;
+    background-color: darkorchid;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.formtext input{
+    color: white;
+    background-color: plum;
+    border: 1px solid plum;
+    border-radius: 15px;
+    width: 100%;
+    padding: 5px;
+    margin-top: 10px;
+}
+.textarea{
+    border: plum 1px solid;
+    background-color: plum;
+    padding: 5px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 15px;
+}
+li{
+    list-style: none;
+}
+.butft{
+    border: 1px solid plum;
+    background-color: plum;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.footer{
+    /* margin-left: 25%; */
+    text-align: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: darkorchid;
+}
+.social1{
+    /* border: red 1px solid ; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0% auto;
+}
+.iframe{
+    width: 20%;
+    height: 20%;
+}
+/* .navbar{
+    border: 1px red solid;
+    display: flex;
+    justify-content: space-around;
+} */
+/* 425 downwards */
+@media(max-width:425px){
+    .nosimg{
+        display: none;
+    }
+    .nos-text p{
+        /* border: 1px red solid; */
+        margin-right: 15px;
+    }
+    .body{
+    font-size: 20px ;
+    }
+    .button{
+        font-size: small;
+        margin: 0% auto;
+    }
+    .card{
+        height: 40%;
+        width: 80%;
+        margin: 0% auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+    .techn{
+        font-size: 15px;
+    }
+    .copyright{
+        /* border: red 1px solid; */
+        text-align: center;
+        color: black;
+    }
+    .numtext{
+        /* border: red 1px solid; */
+        /* display: flex;
+        align-items: center;
+        justify-content: center; */
+        gap: 10%;
+        font-size: 5px;
+    }
+    .nostext{
+        display: none;
+    }
+}
+@media (min-width:425px){
+    .body{
+        text-align: center;
+    }
+    .navby  {
+        /* border: 1px solid yellow; */
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+        /* font-size: 20px; */
+        flex-direction: row-reverse;
+    }
+    .navbyp{
+        font-size: 2px;
+    }
+    .intro{
+        /* border: red 1px solid; */
+        align-items: center;
+        display: flex;
+    }
+    .button1{
+        /* border: 1px solid red; */
+        width:100%;
+        /* margin-right: 20%; */
+        margin: 0% auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .intro img{
+        /* border: red 1px solid; */
+        width: 80%;
+    }
+    .navby p{
+        /* border: orange 1px solid; */
+        /* font-size: 60%; */
+        text-align: left;
+    }
+
+    .iframe{
+        width: 20%;
+        height: 20%;
+    }
+    .nosimg{
+        /* border: 1px red solid; */
+        width: 20px;
+        height: 20px;
+    }
+    .slide{
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items:center ;
+        /* border: red 1px solid; */
+        margin: 0% auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .container{
+        margin-top: 20px;
+    }
+    .techn{
+        font-size: 20px;
+    }
+    .bubu{
+        margin-right: 30% ;
+        /* border: 1px red solid; */
+
+    }
+    .navby button{
+        padding: 3px;
+        /* border: red solid 1px; */
+        margin: 0% auto;
+        font-size: 15px;
+    }
+    .nos-text div{
+        /* border: 1px red solid; */
+        padding: 20px;
+    }
+    .mask{
+        /* border: 1px yellow solid; */
+        width: 50%;
+    }
+    .card{
+        height: 40%;
+        width: 80%;
+        margin: 0% auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .button{
+     /* border: 1px yellow solid; */
+    margin: 0% auto;
+    margin-bottom: 10px;
+    }
+    .body{
+        padding: 20px;
+    }
+   
+}
+@media(min-width:768px){
+    .social img{
+        /* border: 1px red solid; */
+        display: flex;
+        justify-content: center;
+    }
+    .butft{
+        /* border: red solid 1px; */
+        width: 100%;
+        font-size: 10px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+    .iframe{
+        /* border: red 1px solid; */
+        width: 13%;
+    }
+    .formtext{
+        /* border: red solid 1px; */
+        display: flex;
+        gap: 5px;
+    }
+    .forms{
+        /* border: 1px red solid; */
+        width: 80%;
+        margin: 0% auto;
+        padding: 35px;
+    }
+    .navbyp p{
+        /* border: red 1px solid ; */
+        font-size: 20px;
+    }
+    .nos-text div{
+        /* border: red 1px solid; */
+        padding: 35px;
+    }
+    .numtext{
+        /* border: red 1px solid; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+        padding: 10px;
+    }
+    .techn{
+        /* border: red 1px solid; */
+        font-size: 35px;
+    }
+}
+@media (min-width: 1040px){
+    .d-flex {
+        /* border: orange solid 1px; */
+        margin-left: 25%;
+    }
+}
